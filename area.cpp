@@ -8,6 +8,7 @@ int main() {
     //compute area of rectangle
     area = length * width;
     
+    //area output
     cout << "Area: " << area << endl;
     
     return 0;
