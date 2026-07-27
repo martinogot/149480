@@ -41,15 +41,16 @@ int main() {
     cout << "Enter something about yourself: ";
     cin >> aboutMe;
 
-    std::cout << "\n--- User Profile ---\n";
-    std::cout << "First Name: " << firstName << "\n";
-    std::cout << "Last Name: " << lastName << "\n";
-    std::cout << "Full Name: " << fullName << "\n";
-    std::cout << "Favourite Meal: " << favouriteMeal << "\n";
-    std::cout << "Favourite Movie: " << favouriteMovie << "\n";
-    std::cout << "School: " << school << "\n";
-    std::cout << "Course: " << course << "\n";
-    std::cout << "About Me: " << aboutMe << "\n";
+    //Output the user profile
+    cout << "\n--- User Profile ---\n";
+    cout << "First Name: " << firstName << "\n";
+    cout << "Last Name: " << lastName << "\n";
+    cout << "Full Name: " << fullName << "\n";
+    cout << "Favourite Meal: " << favouriteMeal << "\n";
+    cout << "Favourite Movie: " << favouriteMovie << "\n";
+    cout << "School: " << school << "\n";
+    cout << "Course: " << course << "\n";
+    cout << "About Me: " << aboutMe << "\n";
 
     return 0;
 }
